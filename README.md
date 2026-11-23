@@ -1,4 +1,4 @@
-# ranla-ai
+# Ranla
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,153 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ranla-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ranla.ai/
+Ranla is an AI‑powered growth engineering platform that automates marketing tasks across channels such as email, paid ads, search, Reddit and social. It connects to code repositories and analytics tools, proposes and runs experiments, tracks sign‑ups, activations and revenue, and provides measurable lift on growth goals. Targeted at SaaS companies, startups and mid‑market businesses, Ranla offers a no‑code interface, AI‑driven recommendations, and integrates with GitHub, PostHog, Amplitude, Mixpanel, Stripe, Slack and more.
+
+**Areas:** AI · Marketing · Growth · SaaS · Automation · Company
+
+## Ranla on APIs.io
+
+Everything profiled for Ranla is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ranla-ai/](https://apis.io/providers/ranla-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (18)
+
+- [Ranla Affiliates API](https://apis.io/apis/ranla-ai/ranla-ai-affiliates-api/) — Your affiliate and referral program: partners and their links, campaigns (commission plans), referrals, the commission ledger, and payouts. Payout runs are…
+- [Ranla Automations API](https://apis.io/apis/ranla-ai/ranla-ai-automations-api/) — Create and manage event-driven transactional automations
+- [Ranla Cli Login API](https://apis.io/apis/ranla-ai/ranla-ai-clilogin-api/) — Sign a CLI or coding agent in through the browser, with no key to copy: start a sign-in, show the person the link and code, poll until they approve, and…
+- [Ranla Contact Lists API](https://apis.io/apis/ranla-ai/ranla-ai-contactlists-api/) — Named buckets of contacts, maintained by hand or by API
+- [Ranla Contacts API](https://apis.io/apis/ranla-ai/ranla-ai-contacts-api/) — People you can market to, with the product attributes you sync up
+- [Ranla Conversions API](https://apis.io/apis/ranla-ai/ranla-ai-conversions-api/) — Report that a conversion goal happened. Each conversion is attributed to the last campaign or automation email that touched the person — by click id when…
+- [Ranla Deliverability API](https://apis.io/apis/ranla-ai/ranla-ai-deliverability-api/) — Best-effort metrics computed from stored email events
+- [Ranla Domains API](https://apis.io/apis/ranla-ai/ranla-ai-domains-api/) — The Domains API from Ranla — 2 operation(s) for domains.
+- [Ranla Emails API](https://apis.io/apis/ranla-ai/ranla-ai-emails-api/) — The Emails API from Ranla — 5 operation(s) for emails.
+- [Ranla Events API](https://apis.io/apis/ranla-ai/ranla-ai-events-api/) — Custom events that trigger transactional automations
+- [Ranla Inbound API](https://apis.io/apis/ranla-ai/ranla-ai-inbound-api/) — Receive domains, inbound ingestion, and received email retrieval
+- [Ranla Integrations API](https://apis.io/apis/ranla-ai/ranla-ai-integrations-api/) — The Integrations API from Ranla — 3 operation(s) for integrations.
+- [Ranla Ranla Commands API](https://apis.io/apis/ranla-ai/ranla-ai-ranlacommands-api/) — Ranla's own `<noun> <verb>` commands (`campaign list`, `segment create`, `page propose`, …) and the approval cards for the ones that need sign-off. The same…
+- [Ranla Smtp Credentials API](https://apis.io/apis/ranla-ai/ranla-ai-smtpcredentials-api/) — Credentials for the SMTP relay, for tools that send over SMTP instead of the HTTP API
+- [Ranla Suppressions API](https://apis.io/apis/ranla-ai/ranla-ai-suppressions-api/) — Account-level recipient suppressions (bounce/complaint/manual)
+- [Ranla Templates API](https://apis.io/apis/ranla-ai/ranla-ai-templates-api/) — Email templates with `{{variable}}` interpolation
+- [Ranla Webhooks API](https://apis.io/apis/ranla-ai/ranla-ai-webhooks-api/) — The Webhooks API from Ranla — 2 operation(s) for webhooks.
+- [Ranla API Keys API](https://apis.io/apis/ranla-ai/ranla-ai-api-keys-api/) — Manage API keys (list, create, revoke)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Ranla Ai Webhooks](https://apis.io/asyncapis/ranla-ai/ranla-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ranla Agentic Access](https://apis.io/agentic-access/ranla-ai/ranla-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateAffiliateCampaignRequest](https://apis.io/schemas/ranla-ai/ranla-ai-create-affiliate-campaign-request/)
+- [EmailListItem](https://apis.io/schemas/ranla-ai/ranla-ai-email-list-item/)
+- [SendEmailRequest](https://apis.io/schemas/ranla-ai/ranla-ai-send-email-request/)
+- [TriggerEventRequest](https://apis.io/schemas/ranla-ai/ranla-ai-trigger-event-request/)
+- [UpdateAffiliateRequest](https://apis.io/schemas/ranla-ai/ranla-ai-update-affiliate-request/)
+- [VerifyDomainResponse](https://apis.io/schemas/ranla-ai/ranla-ai-verify-domain-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ranla Ai Context](https://apis.io/jsonld/ranla-ai/ranla-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ranla API Rules](https://apis.io/rules/ranla-ai/ranla-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ranla Authentication](https://apis.io/security/ranla-ai/ranla-ai-authentication/)
+- [Ranla Domain Security](https://apis.io/security/ranla-ai/ranla-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ranla Plans Pricing](https://apis.io/plans/ranla-ai/ranla-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ranla.ai/)
+- [Documentation](https://docs.ranla.ai/)
+- [Getting started](https://docs.ranla.ai/quickstart)
+- [API reference](https://docs.ranla.ai/api-explorer)
+- [Pricing](https://ranla.ai/pricing)
+- [Support](https://ranla.ai/support)
+- [Changelog](https://ranla.ai/changelog)
+- [Terms of service](https://ranla.ai/legal/terms)
+- [Privacy policy](https://ranla.ai/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 61.8** — strong · rubric 0.27.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 65.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 64.8** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ranla-ai/](https://apis.io/providers/ranla-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ranla: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ranla-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
